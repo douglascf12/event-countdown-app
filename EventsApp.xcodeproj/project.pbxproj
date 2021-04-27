@@ -13,6 +13,10 @@
 		A35CB9AA2636E56E007D283A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35CB9A82636E56E007D283A /* Main.storyboard */; };
 		A35CB9AC2636E56F007D283A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35CB9AB2636E56F007D283A /* Assets.xcassets */; };
 		A35CB9AF2636E56F007D283A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35CB9AD2636E56F007D283A /* LaunchScreen.storyboard */; };
+		A35CB9B82636E59D007D283A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CB9B72636E59D007D283A /* AppCoordinator.swift */; };
+		A35CB9BB2636E843007D283A /* EventListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CB9BA2636E843007D283A /* EventListCoordinator.swift */; };
+		A35CB9BE2636F0A0007D283A /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CB9BD2636F0A0007D283A /* EventListViewController.swift */; };
+		A38FFDF42637A8C3002E8202 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38FFDF32637A8C3002E8202 /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A35CB9AB2636E56F007D283A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A35CB9AE2636E56F007D283A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A35CB9B02636E56F007D283A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35CB9B72636E59D007D283A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A35CB9BA2636E843007D283A /* EventListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCoordinator.swift; sourceTree = "<group>"; };
+		A35CB9BD2636F0A0007D283A /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		A38FFDF32637A8C3002E8202 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		A35CB9A12636E56E007D283A /* EventsApp */ = {
 			isa = PBXGroup;
 			children = (
+				A38FFDF62637AB6E002E8202 /* Extensions */,
+				A38FFDF72637AB82002E8202 /* Controllers */,
+				A38FFDF82637AB8F002E8202 /* Coordinators */,
 				A35CB9A22636E56E007D283A /* AppDelegate.swift */,
 				A35CB9A42636E56E007D283A /* SceneDelegate.swift */,
 				A35CB9A62636E56E007D283A /* ViewController.swift */,
@@ -65,6 +76,31 @@
 				A35CB9B02636E56F007D283A /* Info.plist */,
 			);
 			path = EventsApp;
+			sourceTree = "<group>";
+		};
+		A38FFDF62637AB6E002E8202 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A38FFDF32637A8C3002E8202 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A38FFDF72637AB82002E8202 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A35CB9BD2636F0A0007D283A /* EventListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A38FFDF82637AB8F002E8202 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				A35CB9B72636E59D007D283A /* AppCoordinator.swift */,
+				A35CB9BA2636E843007D283A /* EventListCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35CB9B82636E59D007D283A /* AppCoordinator.swift in Sources */,
+				A35CB9BE2636F0A0007D283A /* EventListViewController.swift in Sources */,
 				A35CB9A72636E56E007D283A /* ViewController.swift in Sources */,
 				A35CB9A32636E56E007D283A /* AppDelegate.swift in Sources */,
+				A38FFDF42637A8C3002E8202 /* UIColor+Extensions.swift in Sources */,
 				A35CB9A52636E56E007D283A /* SceneDelegate.swift in Sources */,
+				A35CB9BB2636E843007D283A /* EventListCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
