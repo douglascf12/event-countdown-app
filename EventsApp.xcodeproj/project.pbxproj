@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A30CA6C5263C2EC500CEE390 /* TitleSubtileCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA6C4263C2EC500CEE390 /* TitleSubtileCellViewModel.swift */; };
 		A30CA6C9263C2FE200CEE390 /* TitleSubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CA6C8263C2FE200CEE390 /* TitleSubtitleCell.swift */; };
+		A32498B52645897100069C01 /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32498B42645897100069C01 /* ImagePickerCoordinator.swift */; };
+		A32498B82645937F00069C01 /* EventsCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32498B72645937F00069C01 /* EventsCellBuilder.swift */; };
 		A35CB9A32636E56E007D283A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CB9A22636E56E007D283A /* AppDelegate.swift */; };
 		A35CB9A52636E56E007D283A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35CB9A42636E56E007D283A /* SceneDelegate.swift */; };
 		A35CB9AA2636E56E007D283A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35CB9A82636E56E007D283A /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		A30CA6C4263C2EC500CEE390 /* TitleSubtileCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtileCellViewModel.swift; sourceTree = "<group>"; };
 		A30CA6C8263C2FE200CEE390 /* TitleSubtitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleCell.swift; sourceTree = "<group>"; };
+		A32498B42645897100069C01 /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
+		A32498B72645937F00069C01 /* EventsCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCellBuilder.swift; sourceTree = "<group>"; };
 		A35CB99F2636E56E007D283A /* EventsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35CB9A22636E56E007D283A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A35CB9A42636E56E007D283A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				A35CB9B02636E56F007D283A /* Info.plist */,
 				A38FFDFA2637ACE2002E8202 /* EventsApp.xcdatamodeld */,
 				A38FFDFF2637ADFF002E8202 /* CoreDataManager.swift */,
+				A32498B72645937F00069C01 /* EventsCellBuilder.swift */,
 			);
 			path = EventsApp;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 				A35CB9B72636E59D007D283A /* AppCoordinator.swift */,
 				A3AC58422639833800EFBEF1 /* AddEventCoordinator.swift */,
 				A35CB9BA2636E843007D283A /* EventListCoordinator.swift */,
+				A32498B42645897100069C01 /* ImagePickerCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -224,7 +230,9 @@
 				A3AC58432639833800EFBEF1 /* AddEventCoordinator.swift in Sources */,
 				A35CB9BB2636E843007D283A /* EventListCoordinator.swift in Sources */,
 				A3AC58462639867800EFBEF1 /* AddEventViewController.swift in Sources */,
+				A32498B82645937F00069C01 /* EventsCellBuilder.swift in Sources */,
 				A3AC583F2639819B00EFBEF1 /* EventListViewModel.swift in Sources */,
+				A32498B52645897100069C01 /* ImagePickerCoordinator.swift in Sources */,
 				A30CA6C9263C2FE200CEE390 /* TitleSubtitleCell.swift in Sources */,
 				A38FFE002637ADFF002E8202 /* CoreDataManager.swift in Sources */,
 				A38FFDFC2637ACE2002E8202 /* EventsApp.xcdatamodeld in Sources */,
